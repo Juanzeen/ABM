@@ -3,44 +3,76 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgb(24, 24, 24);
     box-sizing: border-box;
     font-family: Poppins;
-    
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    color: white;
 }
 
 .title{
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
-    margin-top: 40px;
+    margin-bottom: 2rem;
     justify-content: space-around;
     font-size: small;
-    text-decoration: underline 2px solid red;
 }
 
-.txtexp{
-    color: rgb(255, 255, 255);
+.container {
+    background-color: rgb(10, 10, 10);
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+.div0{
     text-align: center;
-    text-justify: center;
-    margin-top: 50px;
-    border-style:solid;
-    border-radius: 8px;
-    border-color: red;
-    border-width: thin;
-    padding: 2 rem;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
     font-size: medium;
+    background-color: rgb(30, 32, 148);
 }
 
-#h2{
-    font-size: big;
-    color: white;
-    margin-left: 1rem;
+.div01{
+    align-items: center;
+    list-style: disc;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgb(30, 32, 148);
 }
 
 .list{
-    color: red;
-    list-style:disc;
-    text-align: start;
+    margin-top: 0.5rem;
+    align-items: center;
     margin-left: 2rem;
 }
 
+
+#h2{
+    text-align: center;
+}
+
+.div02{
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding: 2 rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-size: medium;
+    background-color: rgb(30, 32, 148);
+}
+
+.cr{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: small;
+}
