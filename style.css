@@ -90,7 +90,7 @@ body{
     font-size: small;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
     .container {
       width: 100%;
     }
